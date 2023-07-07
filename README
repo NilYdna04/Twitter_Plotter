@@ -1,0 +1,23 @@
+Twitter Plotter for Chryselys
+by Andrew Lin
+
+
+Twitter Plotter
+    Twitter Plotter is a tool used to create charts and a word cloud of 
+    twitter user data. The program will create bubble charts of all of the 
+    provided user's total tweets and user's number of followers. 
+    In addition, it will also create a word cloud of the most frequent words in 
+    all of the user's collective tweets.
+
+Usage
+    run main.py in terminal with the following syntax:
+
+    "python main.py [excel document].xlsx"
+
+    The excel document must contain 4 columns
+        1. A column titled 'Names' containing the names of the users
+        2. A column titled 'Total Tweets' with the number of tweets
+        3. A column titled 'Total Followers' with the number of followers
+        4. A column titled 'Tweets' that contains the text of tweetes of each user
+
+    A sample spreedsheet titled "Dataset1.xlsx" containing a properly formated sheet is included.
